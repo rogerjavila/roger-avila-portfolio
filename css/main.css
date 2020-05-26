@@ -1,0 +1,256 @@
+/*******base styles*****/
+body {
+  font-family: 'Kanit', sans-serif;
+}
+#about #portfolio #contact{
+  width: 1400px;
+}
+/************header***********/
+header{
+  background: url('../img/design-logo.png') white;
+  background-size: cover;
+  height: 800px;
+  width: 1400px;
+  margin: 0 auto;
+}
+.container-1 {
+  width: 600px;
+  height: 800px;
+  float: right;
+}
+nav {
+  float:right;
+  padding-right: 20px;
+  margin: 0;
+
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform:uppercase;
+  text-decoration: none;
+  font-size:24px;
+  color:black;
+  padding-left: 40px;
+}
+.container-1 h2{
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: justify;
+  text-transform: uppercase;
+  margin-top: 470px;
+  padding-left: 33px;
+  padding-right: 23px;
+  padding-bottom: 18px;
+  border-bottom: 40px solid black;
+
+}
+/*************about**************/
+#about {
+  height: 1070px;
+  width: 1400px;
+  background:black;
+}
+#about .top {
+  height: 410px;
+}
+#about .top h1{
+  color: white;
+  font-size: 22px;
+  text-align: justify;
+  margin: 0 200px 50px 200px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+#about .about-image{
+  height: 660px;
+  width: auto;
+}
+img{
+  margin-left: 190px;
+}
+/***********Portfolio*************/
+#portfolio {
+  height: 856px;
+}
+.back-section h1 {
+  text-transform: uppercase;
+  font-size: 200px;
+  margin: 180px 175px 0 175px;
+}
+.work{
+  height: 548px;
+  width: 1400px;
+  margin: 0;
+}
+.row-1{
+  width: 400px;
+  height: 548px;
+  float:left;
+  margin: 0 auto;
+}
+.row-1 img{
+  margin: 0 auto;
+  padding-left: 74px;
+  padding-top: 10px;
+}
+.row-1 h3{
+  padding-left: 74px;
+  padding-top: 10px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.row-1 p{
+  padding-left: 74px;
+  padding-top: 10px;
+  font-family: open sans;
+  font-size: 24px;
+  text-align: center;
+}
+.row-2{
+  width: 466px;
+  height: 548px;
+  float:left;
+  margin: 0 auto;
+}
+.row-2 img{
+  margin: 0 auto;
+  padding-left: 135px;
+  padding-top: 10px;
+}
+.row-2 h3{
+  padding-left: 150px;
+  padding-top: 10px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.row-2 p{
+  padding-left: 150px;
+  padding-top: 10px;
+  font-family: open sans;
+  font-size: 24px;
+  text-align: center;
+}
+.row-3{
+  width: 466px;
+  height: 548px;
+  float:left;
+  margin: 0 auto;
+  position: relative;
+}
+.row-3 img{
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-top: 5px;
+  position: relative;
+  top: -50px;
+}
+.row-3 h3{
+  padding-left: 160px;
+  font-family: open sans;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+.row-3 p{
+  padding-left: 160px;
+  padding-top: 10px;
+  font-family: open sans;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+/***********contact***************/
+.contact-back{
+  width: 1400px;
+  height: 700px;
+  background: #797474;
+
+}
+.contact-back h2{
+  padding-top: 75px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  height: 10px;
+}
+.contact-back a{
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  line-height:90px;
+  margin: 0px;
+}
+.contact-back h1{
+  font-size: 200px;
+  text-transform: uppercase;
+  line-height: 140px;
+  text-align: center;
+  color: white;
+  height: 137px;
+  width: 1400px;
+  margin: auto;
+
+}
+.socialmedia{
+  height: 56px;
+  width: 1400px;
+  position: relative;
+}
+.socialmedia ul li {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  left: 290px;
+  margin-right: -280px;
+  margin-left: 100px;
+}
+.socialmedia ul li a{
+  text-decoration: none;
+  margin: 0 auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  align-items: center;
+}
+
+.contact-back h4{
+  height: auto;
+  width: 233px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 605px;
+  margin-top: 60px;
+}
+/****************footer************/
+footer{
+  height: 40px;
+  width: 1400px;
+  margin: 0;
+  background: #797474;
+  border-top: none;
+}
+footer h2{
+  font-family: open sans;
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 583px;
+  margin-top: 0px;
+}
